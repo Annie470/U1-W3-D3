@@ -19,8 +19,8 @@ form.addEventListener("submit", (e) => {
   assegnate.appendChild(li);
   form.reset();
 
-  //bisogna sbarrare li al click
-  //trovo li
+  //bisogna sbarrare li p al click
+  //trovo li p
   p.addEventListener("click", () => {
     p.style.textDecoration = "line-through";
   });
