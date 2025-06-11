@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Funnel+Display:wght@300..800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Combo&display=swap");
+body {
+  width: 1440px;
+  margin: 0 auto;
+  font-family: "Funnel Display";
+  font-size: 1rem;
+}
+main {
+  height: 85vh;
+  background-image: url("./desk-office.jpg");
+  background-size: cover;
+}
+nav {
+  border-bottom: 1px solid;
+  border-style: dotted;
+}
+nav ul {
+  display: inline-block;
+  text-align: left;
+}
+nav ul li {
+  font-size: 2rem;
+  display: inline-block;
+  margin: 1em;
+}
+#toSide {
+  display: inline-block;
+  text-align: right;
+  margin-left: 700px;
+}
+#toSide i {
+  font-size: 2rem;
+  margin: 1em;
+}
+a {
+  text-decoration: none;
+}
+a:visited {
+  color: black;
+}
+#container-list {
+  width: 700px;
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding-top: 23em;
+}
+h1 {
+  font-size: 7rem;
+  font-weight: 800;
+  font-family: "Sour Gummy", sans-serif;
+  text-align: center;
+  margin-bottom: 0.5em;
+}
+form {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Sour Gummy", sans-serif;
+}
+#textInput {
+  width: 60%;
+  border-radius: 5px;
+  font-size: 2em;
+
+  text-align: center;
+  margin-right: 0.7rem;
+  border-style: dotted;
+}
+form button {
+  border-radius: 5px;
+  background-color: #feedd9;
+  font-size: 2em;
+  text-align: center;
+  border-style: dotted;
+}
+#coseDaFare {
+  text-align: left;
+  list-style-type: none;
+  margin: 3em auto;
+  box-sizing: border-box;
+}
+#coseDaFare li {
+  width: 100%;
+  padding-left: 9em;
+  margin: 10px 0;
+}
+#coseDaFare p {
+  font-size: 2em;
+  display: inline;
+  margin-right: 1em;
+  color: #364759;
+}
+#coseDaFare li button {
+  border-style: none;
+  background-color: #f8f8f8;
+  color: #c11717;
+  font-size: 1.5em;
+  font-family: "Sour Gummy", sans-serif;
+}
+footer {
+  border-top: 1px solid;
+  border-style: dotted;
+  text-align: end;
+}
+footer p {
+  font-size: 2em;
+  font-family: "Combo", system-ui;
+  margin: 0.5em 0.2em;
+}
